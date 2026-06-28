@@ -51,4 +51,9 @@ demo = gr.Interface(
     description="AI Technical Support Agent powered by Google ADK, Gemini, Qdrant, Context7 and Lyzr."
 )
 
-demo.launch()
+import os
+
+demo.launch(
+    server_name="0.0.0.0",
+    server_port=int(os.environ["PORT"])
+)
