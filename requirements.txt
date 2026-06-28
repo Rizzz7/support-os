@@ -1,11 +1,11 @@
 gradio
 google-genai
+google-adk
 python-dotenv
 qdrant-client
 sentence-transformers
 torch
 transformers
-numpy
-scikit-learn
 rich
-google-adk
+mcp
+numpy
