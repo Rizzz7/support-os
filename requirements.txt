@@ -1,0 +1,11 @@
+gradio
+google-genai
+python-dotenv
+qdrant-client
+sentence-transformers
+torch
+transformers
+numpy
+scikit-learn
+rich
+google-adk
